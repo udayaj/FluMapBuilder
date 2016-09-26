@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <geoserver>
+        <geoserver-IP>localhost</geoserver-IP>
+        <geoserver-port>8080</geoserver-port>
+        <geoserver-user>***</geoserver-user>
+        <geoserver-password>***</geoserver-password>
+        <layers-folder>layergroup</layers-folder>
+        <workspace>fluf</workspace>
+        <datastore>flufreqstore</datastore>
+    </geoserver>
+    <gdal>
+        <library-path>/usr/bin/</library-path>
+    </gdal>
+    <file-paths>
+        <input-path>****/TempData/in/</input-path>
+        <output-path>****/TempData/out/</output-path>
+    </file-paths>
+</configuration>

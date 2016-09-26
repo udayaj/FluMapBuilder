@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <score-prams>        
+        <type>normal</type>
+        <threshold>0.6</threshold>
+        <only-qualified>false</only-qualified>
+        <num-days-aggregate>5</num-days-aggregate>
+        <aggregate-coefficient>0</aggregate-coefficient>
+    </score-prams>
+</configuration>
