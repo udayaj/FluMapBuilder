@@ -41,11 +41,6 @@ public class GeoServerHandler {
     String fileDirecetory = "G:\\NetbeansWorkspace\\Data\\in\\";
     String fileName = "20150801";
 
-    /*
-     String url = "http://geogis.bgsu.edu/geoserver";
-     String user = "udaya";
-     String password = "udaya123";
-     */
     GeoServerRESTReader reader = null;
     GeoServerRESTPublisher publisher = null;
 
