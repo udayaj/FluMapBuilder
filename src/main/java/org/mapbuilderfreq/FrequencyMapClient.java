@@ -109,12 +109,6 @@ public class FrequencyMapClient implements Daemon {
             FILE_INPUT_DIR = config.getString("file-paths.input-path");
             FILE_OUTPUT_DIR = config.getString("file-paths.output-path");
 
-            System.out.println("DB_HOST: " + DB_HOST);
-            System.out.println("DB_PORT: " + DB_PORT);
-            System.out.println("DB_USER: " + DB_USER);
-            System.out.println("DB_PASSWORD: " + DB_PASSWORD);
-            System.out.println("DB_NAME: " + DB_NAME);
-
             Class.forName("org.postgresql.Driver");
             String dbUrl = "jdbc:postgresql://" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME;
 
